@@ -13,6 +13,9 @@ import kbecImg from "@/image/kbec-system.png";
 import biImg from "@/image/bi-pipeline.png";
 import kuyFitrahImg from "@/image/kuy-fitrah.png";
 import dapurLodhoImg from "@/image/dapur-lodho.png";
+import pelatihanBiImg from "@/image/pelatihan-bi.jpeg";
+import himsiPendidikanImg from "@/image/himsi-pendidikan.jpeg";
+import n8nAutomationImg from "@/image/n8n-automation.png";
 
 import {
   GraduationCap,
@@ -54,7 +57,7 @@ const showcaseSlides = [
     ],
   },
   {
-    src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&fit=crop&q=80",
+    src: n8nAutomationImg.src,
     alt: "AI Workflow Automation n8n",
     title: "AI Workflow Automation n8n",
     subtitle: "AI & Automation",
@@ -78,7 +81,7 @@ const showcaseSlides = [
     ],
   },
   {
-    src: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&fit=crop&q=80",
+    src: pelatihanBiImg.src,
     alt: "Pelatihan BI Data Analyst",
     title: "Pelatihan BI Data Analyst",
     subtitle: "Event & Workshop",
@@ -102,7 +105,7 @@ const showcaseSlides = [
     ],
   },
   {
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&fit=crop&q=80",
+    src: himsiPendidikanImg.src,
     alt: "Program Kerja Divisi Pendidikan",
     title: "Program Kerja Divisi Pendidikan",
     subtitle: "Event & Organization",
@@ -263,7 +266,7 @@ export default function Home() {
 
       {/* SECTION 1: HERO COVER BANNER */}
       <section id="home" className="pt-20 md:pt-24 pb-8 min-h-[85vh] flex flex-col justify-between items-center relative z-10 px-4 sm:px-6 max-w-7xl mx-auto overflow-x-hidden touch-pan-y">
-        
+
         {/* DESKTOP LAYOUT (lg: and above) */}
         <div className="hidden lg:block absolute top-1 left-4 lg:left-20 z-20 pointer-events-none">
           <InteractiveLanyard fotoUrl={fotoImg.src} />
@@ -352,7 +355,7 @@ export default function Home() {
 
         {/* MOBILE LAYOUT (< lg): Pure Vertical Stack (No Overlapping Elements) */}
         <div className="lg:hidden w-full flex flex-col items-center gap-5 my-auto z-20">
-          
+
           {/* Block 1: Lanyard Card Centered at Top */}
           <div className="w-full flex justify-center pointer-events-auto">
             <InteractiveLanyard fotoUrl={fotoImg.src} />
@@ -619,13 +622,13 @@ export default function Home() {
             <div className="space-y-6 border-l-2 border-purple-500/40 pl-6">
               <div className="bg-[#111622]/70 backdrop-blur-xl border border-white/10 shadow-2xl p-6 rounded-xl relative">
                 <div className="w-3 h-3 rounded-full bg-purple-500 absolute -left-[31px] top-7 ring-4 ring-[#0a0d14]"></div>
-                <h4 className="text-base font-bold text-white mb-1">Asisten Fasilitator / Pemateri BI Data Analyst</h4>
+                <h4 className="text-base font-bold text-white mb-1">Asisten Fasilitator pada BI Data Analyst</h4>
                 <div className="flex justify-between text-xs text-purple-400 font-bold mb-3">
                   <span>GEN-BI Kediri</span>
                   <span>Nov 2025 – Sekarang</span>
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed font-normal">
-                  Menjadi pemateri pelatihan Business Intelligence. Menyampaikan materi end-to-end data processing (cleaning, preprocessing, EDA) hingga pembuatan interactive dashboard dengan Microsoft Excel dan visualisasi data bisnis.
+                  Menjadi asisten dari pemateri/fasilitator dalam pelatihan Business Intelligence. Membantu penyampaian materi end-to-end data processing (cleaning, preprocessing, EDA) hingga pembuatan interactive dashboard dengan Microsoft Excel dan visualisasi data bisnis.
                 </p>
               </div>
 
@@ -633,7 +636,7 @@ export default function Home() {
                 <div className="w-3 h-3 rounded-full bg-purple-500 absolute -left-[31px] top-7 ring-4 ring-[#0a0d14]"></div>
                 <h4 className="text-base font-bold text-white mb-1">Divisi Pendidikan</h4>
                 <div className="flex justify-between text-xs text-purple-400 font-bold mb-3">
-                  <span>HIMSI UMB</span>
+                  <span>HIMSISFO UMB</span>
                   <span>Sept 2025 – Sekarang</span>
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed font-normal">
