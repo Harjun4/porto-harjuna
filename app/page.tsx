@@ -483,7 +483,7 @@ export default function Home() {
               {/* 4 Metrics Grid Inside Tablet */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 pt-2">
                 <div className="bg-white/5 border border-white/10 p-3 sm:p-4 rounded-xl">
-                  <div className="text-purple-400 font-bold text-sm sm:text-base md:text-xl md:font-extrabold">3.84 IPK</div>
+                  <div className="text-purple-400 font-bold text-sm sm:text-base md:text-xl md:font-extrabold">3.87 IPK</div>
                   <div className="text-slate-400 text-[11px] sm:text-xs font-medium mt-0.5 sm:mt-1">S1 Sistem Informasi UMB</div>
                 </div>
                 <div className="bg-white/5 border border-white/10 p-3 sm:p-4 rounded-xl">
@@ -544,7 +544,7 @@ export default function Home() {
                 </li>
                 <li>
                   <div className="text-slate-400 text-xs uppercase tracking-wider font-semibold">Semester / IPK</div>
-                  <div className="text-white font-bold">Semester 6 (3.84 / 4.00)</div>
+                  <div className="text-white font-bold">Semester 7 (3.87 / 4.00)</div>
                 </li>
                 <li>
                   <div className="text-slate-400 text-xs uppercase tracking-wider font-semibold">Fokus Role</div>
@@ -625,7 +625,7 @@ export default function Home() {
                 <h4 className="text-base font-bold text-white mb-1">Asisten Fasilitator pada BI Data Analyst</h4>
                 <div className="flex justify-between text-xs text-purple-400 font-bold mb-3">
                   <span>GEN-BI Kediri</span>
-                  <span>Nov 2025 – Sekarang</span>
+                  <span>Nov 2025</span>
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed font-normal">
                   Menjadi asisten dari pemateri/fasilitator dalam pelatihan Business Intelligence. Membantu penyampaian materi end-to-end data processing (cleaning, preprocessing, EDA) hingga pembuatan interactive dashboard dengan Microsoft Excel dan visualisasi data bisnis.
@@ -654,13 +654,13 @@ export default function Home() {
             <div className="space-y-6 border-l-2 border-purple-500/40 pl-6">
               <div className="bg-[#111622]/70 backdrop-blur-xl border border-white/10 shadow-2xl p-6 rounded-xl relative">
                 <div className="w-3 h-3 rounded-full bg-purple-500 absolute -left-[31px] top-7 ring-4 ring-[#0a0d14]"></div>
-                <h4 className="text-base font-bold text-white mb-1">S1 Sistem Informasi (Semester 6)</h4>
+                <h4 className="text-base font-bold text-white mb-1">S1 Sistem Informasi (Semester 7)</h4>
                 <div className="flex justify-between text-xs text-purple-400 font-bold mb-3">
                   <span>Universitas Mercu Buana - Jakarta</span>
                   <span>2023 – Sekarang</span>
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed font-normal">
-                  IPK Kumulatif: <strong className="text-purple-400 font-bold">3.84 / 4.00</strong>. Fokus pada Business Intelligence, Rekayasa Perangkat Lunak, Data Pipeline, & Analisis Sistem Enterprise.
+                  IPK Kumulatif: <strong className="text-purple-400 font-bold">3.87 / 4.00</strong>. Fokus pada Business Intelligence, Rekayasa Perangkat Lunak, Data Pipeline, & Analisis Sistem Enterprise.
                 </p>
               </div>
             </div>
